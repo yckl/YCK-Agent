@@ -1,0 +1,79 @@
+{
+  "providers": {
+    "google": {
+      "apiKey": "AIzaSyDLdtWMI_9GWWL3OCTis1pqLWZHbi1ZIB0",
+      "apiKeys": [
+        "AIzaSyDLdtWMI_9GWWL3OCTis1pqLWZHbi1ZIB0",
+        "AIzaSyAeXd8JEJARhxCE9pY77TWiqtwt0VO_Fsg",
+        "AIzaSyDuY6Y_B6BxR-GSEaiuwK10_2Lv6z-Uzl4",
+        "AIzaSyBHvyI5iaJAsVZJi5sT1u2dcuGh4zlzczo",
+        "AIzaSyAuYb7cshjOTwcwe9VICSt5v0Ue6CJGkt8",
+        "AIzaSyA7Vd0y8RRKLzxdEaoZZjSKHaS0Ws6yYfw",
+        "AIzaSyCqF3j5jViTLg_yRcwGi6oaGcAkmbdVCmw",
+        "AIzaSyCl_tPLIHG5zlouvT98gRyiMjIzJJc5qfY",
+        "AIzaSyDUx6aWKZhOtpu6YMGttprzPTxYRZ1FTE8",
+        "AIzaSyC4ghRoyg_kUmG3Zz6EDG-WCFYsTu7tA48",
+        "AIzaSyBxgLKX8FT_nhSqWF7XwsGrcQFI83bz8Qg"
+      ],
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "models": {
+        "default": "gemini-2.0-flash",
+        "powerful": "gemini-2.5-pro-preview-06-05",
+        "fast": "gemini-2.0-flash-lite"
+      }
+    },
+    "kimi": {
+      "apiKey": "sk-XuDOJxyE6GkL5mVcEAc8j6oOz31ib565shB2FyLlgUrUxy30",
+      "baseUrl": "https://api.moonshot.cn/v1",
+      "models": {
+        "default": "moonshot-v1-8k",
+        "powerful": "moonshot-v1-128k",
+        "fast": "moonshot-v1-8k"
+      }
+    },
+    "openai": {
+      "apiKey": "",
+      "baseUrl": "https://api.openai.com/v1",
+      "models": {
+        "default": "gpt-4o-mini",
+        "powerful": "gpt-4o",
+        "fast": "gpt-4o-mini"
+      }
+    },
+    "anthropic": {
+      "apiKey": "",
+      "models": {
+        "default": "claude-sonnet-4-20250514",
+        "powerful": "claude-opus-4-20250514",
+        "fast": "claude-haiku-3-5-20241022"
+      }
+    },
+    "deepseek": {
+      "apiKey": "",
+      "baseUrl": "https://api.deepseek.com/v1",
+      "models": {
+        "default": "deepseek-chat",
+        "powerful": "deepseek-chat",
+        "fast": "deepseek-chat"
+      }
+    }
+  },
+  "activeProvider": "kimi",
+  "activeModel": "default",
+  "maxTokens": 4096,
+  "temperature": 0.7,
+  "systemPrompt": "你是 YCK Agent，一个全能 AI 智能体助手。你能够使用各种工具来帮助用户完成任务，包括文件操作、终端执行、代码分析、网络搜索等。请始终以专业、高效的方式协助用户。",
+  "theme": "dark",
+  "language": "zh-CN",
+  "memory": {
+    "enabled": true,
+    "maxHistory": 100,
+    "persistPath": "~/.ycka/memory"
+  },
+  "permissions": {
+    "autoApproveRead": true,
+    "autoApproveWrite": false,
+    "autoApproveTerminal": false,
+    "autoApproveNetwork": true
+  }
+}
